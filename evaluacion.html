@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Notas</title>
+</head>
+<body>
+	<form name="evaluacion" action="evaluacion.php" method="POST">
+	<table border="2" align="center">
+		<tr>
+			<td colspan="5" align="center" >Registro de Notas </td>
+		</tr>
+		<tr>
+			<td>Nombre del Alumno</td>
+			<td><input type="text" name="txtalumno"></td>
+		</tr>
+		<tr>
+			<td>Apellido del Alumno</td>
+			<td><input type="text" name="txtapellido"></td>
+		</tr>
+
+
+		<tr>
+			<td>Materia</td>
+
+		  	<td>	<SELECT NAME="cbcolor">
+					<option disabled select>selecione una materia</option>
+					<option value="ciencias">ciencias</option>
+					<option value="matenticas">matenticas</option>
+					<option value="socales">socales</option>
+					<option value="lenguaje">lenguaje</option>
+					<option value="orientacion para la vida">orientacion para la vida</option>
+					<option value="ingles">ingles</option>
+					<option value="Edu. Fisica">Edu. Fisica</option>
+					<option value="Habilitacion Laboral">Habilitacion Laboral</option>
+					<option value="Informatica">Informatica</option>
+					<option value="seminario">seminario</option>
+				</SELECT>
+ 		</td>
+		<tr>
+			<td>Primer periodo 30%</td>
+			<td><input type="text" name="txtp1"></td>
+		</tr>
+		<tr>
+			<td>Segundo periodo 30%</td>
+			<td><input type="text" name="txtp2"></td>
+		</tr>
+		<tr>	
+			<td>Tercer periodo 40%</td>
+			<td><input type="text" name="txtp3"></td>
+		</tr>
+		<tr>
+		<td colspan="2"><input type="submit" value="calcular "></td>
+	</tr>
+</from>
+	</table>
+</body>
+</html>

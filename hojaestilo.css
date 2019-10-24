@@ -1,0 +1,35 @@
+/* archivo general css paa gestionar la apariencia d sitios web admin academica */
+
+/* propiedades generales para tablas.*/
+table {
+	border: 3px solid black;
+
+}
+
+/*propiedades generales para la etiqueta td*/
+td{
+	border: 1.5px solid green;
+	padding: 10px;
+	text-align: center;
+}
+
+/*clase para centar el elemento table */
+table.centrado{
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 15%;
+}
+
+/*efecto cuando el mouse pasa sobre cada fila*/
+tr:hover{
+	background-color: #fdcec4;
+}
+
+/*clases encabezado para las tablas */
+.encabezado {
+	background-color: #4caf50;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
